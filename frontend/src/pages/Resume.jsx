@@ -349,7 +349,15 @@ const Resume = () => {
       {/* Preview */}
       
       <div
-        style={{ }}
+        style={{ 
+          width: "793px",
+    // height: "1122px", // Let the height be auto
+           margin: "auto",
+    padding: "20px",
+    boxSizing: "border-box",
+    fontSize: "12px",
+    overflow: "auto",
+        }}
         ref={previewRef}
         className=" bg-white shadow-lg rounded-lg  overflow-y-auto"
       >
