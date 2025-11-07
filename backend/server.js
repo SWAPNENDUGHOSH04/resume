@@ -7,7 +7,7 @@ import resumeRouter from "./routes/resumeRoutes.js";
 
 const app = express()
 
-const PORT = process.env.PORT || 3000;
+const PORT = "https://resumax.netlify.app" || 3000;
 
 
 //database conn
