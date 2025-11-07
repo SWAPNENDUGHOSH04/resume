@@ -6,8 +6,8 @@ import UserRouter from "./routes/UserRoutes.js"
 import resumeRouter from "./routes/resumeRoutes.js";
 
 const app = express()
-
-const PORT = "https://resume1builder.netlify.app/app" || 3000;
+cosnt URL = "https://resume1builder.netlify.app/app"
+const PORT = parseInt(process.env.URL, 10)  || 3000;
 
 
 //database conn
